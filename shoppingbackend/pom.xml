@@ -22,4 +22,18 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <build>
+  <plugins>
+			<!--Updated to latest version of JAVA -->
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.1</version>
+				<configuration>
+					<source>1.8</source>
+					<tareget>1.8</tareget>
+				</configuration>
+			</plugin>
+		</plugins>
+  
+  </build>
 </project>
